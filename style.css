@@ -66,6 +66,7 @@ header {
 
 /* main part */
 main.content-card {
+    position: relative;
     padding: 8vw;
     border-radius: .5rem;
     text-align: center;
@@ -115,7 +116,7 @@ main > p {
 
 .space-left {
     position: absolute;
-    bottom: 16.5vh;
+    bottom: -5vh;
     background-color: #fff;
     color: var(--Very-Dark-Blue);
     display: flex;

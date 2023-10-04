@@ -1,7 +1,76 @@
 body {
+    flex-direction: row;
     background-color: var(--Very-Dark-Blue);
     background-image: url(./images/bg-desktop.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
+    align-items: center;
+}
+
+.content-card {
+    height: fit-content;
+    width: fit-content;
+}
+
+header {
+    padding: 3vw;
+    border-radius: 1rem;
+    border-top-right-radius: 12rem;
+    padding-right: 15vh;
+}
+
+header > img {
+    width: 80%;
+}
+
+.file-manager {
+    gap: 1.5vw;
+}
+
+.file-element {
+    height: 6vh;
+    width: 6vh;
+    border-radius: .75rem;
+}
+
+.file-element > img {
+    width: 2.75vh;
+}
+
+main.content-card {
+    padding: 3vw;
+    border-radius: 1rem;
+    
+}
+
+.progression {
+    width: 30vw;
+}
+
+.min-max-space {
+    width: 30vw;
+}
+
+.space-left {
+    position: absolute;
+    top: -10vh;
+    right: 5vw;
+    width: fit-content;
+    align-self: center;
+    padding: 2.5vh 2.5vw;
+    border-radius: 1rem;
+    gap: 1vw;
+    height: fit-content;
+}
+
+.space-left > h1 {
+    font-size: 4vw;
+}
+
+.space-left > p {
+    font-size: 1.5vw;
+    color: var(--Grayish-Blue);
+    text-transform: uppercase;
+    font-weight: 700;
 }
