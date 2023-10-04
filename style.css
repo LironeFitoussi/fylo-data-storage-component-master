@@ -25,8 +25,30 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     border-radius: .5rem;
     border-top-right-radius: 6rem;
+    gap: 4vh;
+}
+
+.file-manager {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4vw;
+}
+
+.file-element {
+    background-color: var(--Very-Dark-Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    width: 7vh;
+    border-radius: .5rem;
 }
 
 .attribution {
