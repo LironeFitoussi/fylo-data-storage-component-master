@@ -97,6 +97,18 @@ main > p {
     border-radius: 5rem;
 }
 
+.min-max-space {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}
+
+.min-max-space > span {
+    font-weight: 700;
+    font-size: 3vw;
+}
 
 .attribution {
   font-size: 11px;
