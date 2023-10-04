@@ -41,39 +41,55 @@ header > img {
 }
 
 main.content-card {
-    padding: 3vw;
-    border-radius: 1rem;
-    gap: 1vh;
+    padding: 3vw 3vw;
+    gap: 2vh;
+    width: 35vw;
 }
 
-.progression {
-    width: -webkit-fill-available;
+main > p {
+    align-self: flex-start;
+    font-size: 1.25vw;
 }
 
 .min-max-space {
-    width: 30vw;
     margin-bottom: 0;
 }
 
+.min-max-space > span {
+    font-size: 1vw;
+}
 .space-left {
     position: absolute;
-    top: -10vh;
-    right: 5vw;
+    top: -6vh;
+    right: 2.5vw;
     width: fit-content;
     align-self: center;
-    padding: 2.5vh 2.5vw;
+    padding: 2vh 1.5vw;
     border-radius: 1rem;
     gap: 1vw;
     height: fit-content;
+    z-index: 50;
 }
 
 .space-left > h1 {
-    font-size: 4vw;
+    font-size: 2.5vw;
 }
 
 .space-left > p {
-    font-size: 1.5vw;
+    font-size: 1vw;
     color: var(--Grayish-Blue);
     text-transform: uppercase;
     font-weight: 700;
 }
+
+.arrow-up {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    top: 5vh;
+    right: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 30px solid #fff;
+    z-index: -5;
+  }
