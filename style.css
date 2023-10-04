@@ -21,6 +21,7 @@ body {
     margin: 0;
     background-image: url(./images/bg-mobile.png);
     display: flex;
+    align-items: center;
     flex-direction: column;
     min-height: 100vh;
     justify-content: center;
@@ -36,6 +37,7 @@ body {
     padding: 0 7vw;
     gap: 3vh;  
 }
+
 .content-card {
     display: flex;
     flex-direction: column;
