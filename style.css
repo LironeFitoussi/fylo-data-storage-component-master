@@ -45,6 +45,7 @@ body {
     align-items: flex-start;
     background-color: var(--Dark-Blue);
     color: var(--Pale-Blue);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 /* header part */
@@ -70,7 +71,14 @@ header {
     height: 7vh;
     width: 7vh;
     border-radius: .5rem;
+    transition: all .2s;
 }
+
+.file-element:hover {
+    background-color: #94000083;
+    height: 8vh;
+    width: 8vh;
+} 
 
 
 /* main part */
