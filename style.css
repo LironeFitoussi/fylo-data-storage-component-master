@@ -6,6 +6,10 @@
     --Very-Dark-Blue: hsl(229, 57%, 11%);
 }
 
+p, h1 {
+    margin: 0;
+}
+
 body {
     margin: 0;
     background-image: url(./images/bg-mobile.png);
@@ -19,16 +23,17 @@ body {
 }
 
 .content-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     padding: 10vw;
     background-color: var(--Dark-Blue);
     color: #fff;
 }
 
+/* header part */
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     border-radius: .5rem;
     border-top-right-radius: 6rem;
     gap: 4vh;
@@ -50,6 +55,13 @@ header {
     width: 7vh;
     border-radius: .5rem;
 }
+
+
+/* main part */
+main {
+    border-radius: .5rem;
+}
+
 
 .attribution {
   font-size: 11px;
