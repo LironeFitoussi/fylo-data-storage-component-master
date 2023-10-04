@@ -10,6 +10,7 @@
     --Grayish-Blue: hsl(229, 7%, 55%);
     --Dark-Blue: hsl(228, 56%, 26%);
     --Very-Dark-Blue: hsl(229, 57%, 11%);
+    --Soft-Dark-Blue: hsla(229, 57%, 11%, 0.50);
 }
 
 p, h1 {
@@ -33,13 +34,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 10vw;
     background-color: var(--Dark-Blue);
     color: #fff;
 }
 
 /* header part */
 header {
+    padding: 10vw;
     border-radius: .5rem;
     border-top-right-radius: 6rem;
     gap: 4vh;
@@ -64,8 +65,36 @@ header {
 
 
 /* main part */
-main {
+main.content-card {
+    padding: 8vw;
     border-radius: .5rem;
+    text-align: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+main > p {
+    font-size: 14px;
+}
+
+.progression {
+    width: 70vw;
+    height: 2vh;
+    background-color: var(--Soft-Dark-Blue);
+    border-radius: 5rem;
+    padding: 3px;
+}
+
+.progress-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px;
+    height: 1vh;
+    justify-content: flex-end;
+    background: linear-gradient(var(--Gradient));
+    width: 81.5%;
+    border-radius: 5rem;
 }
 
 
