@@ -1,0 +1,7 @@
+body {
+    background-color: var(--Very-Dark-Blue);
+    background-image: url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
