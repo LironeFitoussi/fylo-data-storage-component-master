@@ -108,6 +108,7 @@ main > p {
     background: linear-gradient(var(--Gradient));
     width: 81.5%;
     border-radius: 5rem;
+    animation: loadSpace 1s;
 }
 
 .min-max-space {
@@ -159,4 +160,10 @@ main > p {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+
+@keyframes loadSpace {
+    from {width: 0%;}
+    to {width: 81.5%}
 }
