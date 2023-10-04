@@ -1,11 +1,15 @@
 body {
-    flex-direction: row;
     background-color: var(--Very-Dark-Blue);
     background-image: url(./images/bg-desktop.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
     align-items: center;
+}
+
+#container {
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 .content-card {
@@ -15,8 +19,6 @@ body {
 
 header {
     padding: 3vw;
-    border-radius: 1rem;
-    border-top-right-radius: 12rem;
     padding-right: 15vh;
 }
 
@@ -41,15 +43,16 @@ header > img {
 main.content-card {
     padding: 3vw;
     border-radius: 1rem;
-    
+    gap: 1vh;
 }
 
 .progression {
-    width: 30vw;
+    width: -webkit-fill-available;
 }
 
 .min-max-space {
     width: 30vw;
+    margin-bottom: 0;
 }
 
 .space-left {

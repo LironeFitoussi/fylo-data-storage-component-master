@@ -26,9 +26,16 @@ body {
     justify-content: center;
     padding: 0 7vw;
     gap: 3vh;
-
 }
 
+#container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 7vw;
+    gap: 3vh;  
+}
 .content-card {
     display: flex;
     flex-direction: column;
@@ -82,7 +89,7 @@ main > p {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 70vw;
+    width: -webkit-fill-available;
     height: 2vh;
     background-color: var(--Soft-Dark-Blue);
     border-radius: 5rem;
@@ -102,7 +109,7 @@ main > p {
 }
 
 .min-max-space {
-    width: 70vw;
+    width: -webkit-fill-available;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

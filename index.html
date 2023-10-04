@@ -10,37 +10,39 @@
   <title>Frontend Mentor | Fylo data storage component</title>
 </head>
 <body>
-  <header class="content-card">
-    <img src="./images/logo.svg" alt="">
-    <div class="file-manager">
-      <div class="file-element">
-        <img src="./images/icon-document.svg" alt="">
+  <div id="container">
+    <header class="content-card">
+      <img src="./images/logo.svg" alt="">
+      <div class="file-manager">
+        <div class="file-element">
+          <img src="./images/icon-document.svg" alt="">
+        </div>
+        <div class="file-element">
+          <img src="./images/icon-folder.svg" alt="">
+        </div>
+        <div class="file-element">
+          <img src="./images/icon-upload.svg" alt="">
+        </div>
       </div>
-      <div class="file-element">
-        <img src="./images/icon-folder.svg" alt="">
+    </header>
+  
+    <main class="content-card">
+      <p>You’ve used <strong>815 GB</strong> of your storage</p>
+      <div class="progression">
+        <div class="progress-line">
+          <i class="fa-solid fa-circle fa-2xs" style="color: #ffffff;"></i>
+        </div>
       </div>
-      <div class="file-element">
-        <img src="./images/icon-upload.svg" alt="">
+      <div class="min-max-space">
+        <span>0 GB</span>
+        <span>1000 GB</span>
       </div>
-    </div>
-  </header>
-
-  <main class="content-card">
-    <p>You’ve used <strong>815 GB</strong> of your storage</p>
-    <div class="progression">
-      <div class="progress-line">
-        <i class="fa-solid fa-circle fa-2xs" style="color: #ffffff;"></i>
+      <div class="space-left">
+        <h1>185</h1>
+        <p>GB Left</p>
       </div>
-    </div>
-    <div class="min-max-space">
-      <span>0 GB</span>
-      <span>1000 GB</span>
-    </div>
-    <div class="space-left">
-      <h1>185</h1>
-      <p>GB Left</p>
-    </div>
-  </main>
+    </main>
+  </div>
   
 
   <div class="attribution">
